@@ -1,17 +1,5 @@
 {
-    "SwaggerEndPoints": [
-      {
-        "Key": "contacts",
-        "Config": [
-          {
-            "Name": "Contacts API",
-            "Version": "v1",
-            "Url": "http://localhost:5288/swagger/v1/swagger.json"
-          }
-        ]
-      }
-    ],
-    "GlobalConfiguration": {
-      "BaseUrl": "http://localhost:5014"
-    }
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:5214"
   }
+}
