@@ -1,0 +1,18 @@
+{
+    "Routes": [
+      {
+        "DownstreamPathTemplate": "/WeatherForecast",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5288
+          }
+        ],
+        "UpstreamPathTemplate": "/api/contacts",
+        "UpstreamHttpMethod": [ "Get" ],
+        "SwaggerKey": "contacts",
+        "ServiceName": "contacts"
+      }
+    ]
+  }
